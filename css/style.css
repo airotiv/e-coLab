@@ -1,0 +1,148 @@
+/* Estilos Gerais */
+@font-face {
+  font-family: Metropolis-regular;
+  src: url("../font/Metropolis-master/Fonts/OpenType/Metropolis-Regular.otf");
+}
+
+@font-face {
+  font-family: Metropolis-bold;
+  src: url("../font/Metropolis-master/Fonts/OpenType/Metropolis-Bold.otf");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins/Poppins-Regular.ttf");
+}
+
+.btn {
+  background-color: #ff6100;
+  border: 1px solid #3d2007;
+  border-radius: 30px;
+  color: #3d2007;
+  font-family: Metropolis-regular;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  padding: 14px 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Menu */
+.header {
+  background-color: #fffccc;
+  height: 80px;
+  position: fixed;
+  padding: 15px 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+/* estiliza o logo do site */
+.header .container a {
+  margin-bottom: 8px;
+}
+/* estiliza os itens de nevegação do menu */
+.header .menu {
+  /* margin-top: 20px; */
+  text-align: right;
+}
+
+.header .menu ul li {
+  display: inline-block;
+  margin-left: 40px;
+  text-align: center;
+  width: 100px;
+}
+
+.header .menu ul li a {
+  color: #3d2007;
+  font-family: Metropolis-bold;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header .menu ul li a:hover {
+  color: #a43e00;
+}
+
+/*Introdução*/
+.introducao {
+  background-color: #fffccc;
+  margin-top: 80px;
+  height: 380px;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.introducao .container {
+  text-align: center;
+}
+
+.introducao .container img {
+  margin-bottom: 40px;
+}
+
+/* Overview */
+
+.overview {
+  margin-top: 60px;
+}
+
+.overview {
+  color: #3d2007;
+  font-family: Metropolis-regular;
+}
+
+.overview div {
+  margin-bottom: 40px;
+}
+
+.overview h2 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.overview .visao-geral h2:after {
+  content: "";
+  background: #3d2007;
+  display: block;
+  height: 3px;
+  margin: 10px 0 0 30px;
+  width: 60px;
+}
+
+.overview .sobre-nos h2:after {
+  content: "";
+  background: #3d2007;
+  display: block;
+  height: 3px;
+  margin: 10px 0 0 20px;
+  width: 60px;
+}
+
+.overview .objetivos h2:after {
+  content: "";
+  background: #3d2007;
+  display: block;
+  height: 3px;
+  margin: 10px 0 0 20px;
+  width: 60px;
+}
+
+.overview p {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+/* Categorias */
+.categorias .container {
+  background-color: #f8fbee;
+  height: 539px;
+  width: 100%;
+}
+
+/* Footer */
