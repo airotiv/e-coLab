@@ -12,15 +12,22 @@
 .btn {
   /* botoes */
   background-color: #ff6100;
-  border: 1px solid #3d2007;
+  border: 1.4px solid #3d2007;
   border-radius: 30px;
   color: #3d2007;
   font-family: Metropolis;
+  font-size: 14px;
   letter-spacing: 0.1em;
   line-height: 20px;
-  padding: 14px 19px;
+  padding: 10px 20px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.btn:hover {
+  /* background-color: #ff914d; */
+  border-color: #a43e00;
+  color: #fffccc;
 }
 
 .header {
@@ -64,17 +71,21 @@
 /* INTRODUCAO */
 .introducao {
   background-color: #fffccc;
-  margin-top: 80px;
+  margin-top: 90px; /* altura do header */
   height: 380px;
-  padding: 40px 0;
   width: 100%;
 }
 
 .introducao .container {
+  padding: 40px 0;
   text-align: center;
 }
 
 .introducao .container img {
+  margin-bottom: 40px;
+}
+
+.introducao .btn {
   margin-bottom: 40px;
 }
 
