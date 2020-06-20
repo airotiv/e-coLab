@@ -30,6 +30,15 @@
   color: #fffccc;
 }
 
+.subtitulo {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 27px;
+  text-transform: uppercase;
+}
+
 .header {
   background-color: #fffccc;
   position: fixed;
@@ -157,6 +166,34 @@
   margin-bottom: 40px;
 }
 
-/* Categorias */
+/* CATEGORIAS */
+.categorias {
+  background-color: #f8fbee;
+}
+
+.separador {
+  padding-top: 40px;
+}
+
+.categorias h3 {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.categorias-lista {
+  padding-top: 260px;
+  padding-left: 120px;
+}
+
+.categorias-lista li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 120px;
+  max-width: 157px;
+}
 
 /* Footer */
