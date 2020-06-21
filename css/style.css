@@ -171,8 +171,32 @@
   background-color: #f8fbee;
 }
 
-.separador {
-  padding-top: 40px;
+.categorias .container div {
+  display: inline-block;
+}
+
+.titulo-categorias {
+  padding-left: 10px;
+  margin-right: 40px;
+}
+
+.separador img {
+  padding-bottom: 9px;
+}
+
+.logo-categorias {
+  display: block;
+  margin: 0px auto;
+  max-width: 100%;
+  padding-top: 60px;
+}
+
+.linhas-categorias {
+  top: 155px;
+  display: block;
+  /* margin: 0px auto; */
+  position: absolute;
+  left: 188px;
 }
 
 .categorias h3 {
@@ -185,7 +209,8 @@
 }
 
 .categorias-lista {
-  padding-top: 260px;
+  margin-top: 30px;
+  padding-top: 65px;
   padding-left: 120px;
 }
 
