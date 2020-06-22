@@ -35,7 +35,7 @@
   font-family: Metropolis;
   font-size: 24px;
   line-height: 30px;
-  padding-top: 27px;
+  padding-top: 40px;
   text-transform: uppercase;
 }
 
@@ -71,11 +71,6 @@
   letter-spacing: 0.1em;
   line-height: 20px;
   padding: 10px 0; /* aumenta a area clicavel */
-}
-
-.nav-menu ul li a.menu-ativo {
-  background-color: blue;
-  color: #a43e00;
 }
 
 .nav-menu ul li a:hover {
@@ -115,6 +110,16 @@
   font-family: Metropolis;
   letter-spacing: 0.1em;
   line-height: 20px;
+}
+
+/* SUBTITULO SEGUIDO DE SEPARADOR */
+.subtitulo-separador {
+  padding-left: 10px;
+  margin-right: 40px;
+}
+
+.separador img {
+  padding-bottom: 6px;
 }
 
 /* INTRODUCAO */
@@ -215,15 +220,8 @@
   display: inline-block;
 }
 
-.titulo-categorias {
-  padding-left: 10px;
-  margin-right: 40px;
-}
-
-.separador img {
-  padding-bottom: 9px;
-}
-
+/* Para estilizar o titulo da secao 'tipo de categorias'
+é utilizada a classe subtitulo-separdor dos estilos gerais */
 .logo-categorias {
   display: block;
   margin: 0px auto;
