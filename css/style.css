@@ -113,9 +113,15 @@
 }
 
 /* SUBTITULO SEGUIDO DE SEPARADOR */
+
 .subtitulo-separador {
   padding-left: 10px;
   margin-right: 40px;
+}
+
+.subtitulo-separador,
+.separador {
+  display: inline-block;
 }
 
 .separador img {
@@ -215,11 +221,6 @@
 .categorias {
   background-color: #f8fbee;
 }
-
-.categorias .container div {
-  display: inline-block;
-}
-
 /* Para estilizar o titulo da secao 'tipo de categorias'
 é utilizada a classe subtitulo-separdor dos estilos gerais */
 .logo-categorias {

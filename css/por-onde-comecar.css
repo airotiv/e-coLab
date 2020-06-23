@@ -4,11 +4,6 @@
   padding-top: 40px;
 }
 
-.indice div {
-  /* coloca subtitulo e separador na mesma linha */
-  display: inline-block;
-}
-
 .indice ul li {
   /* espaçamento entre cada item da lista */
   margin-top: 40px;
