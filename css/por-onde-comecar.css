@@ -27,3 +27,50 @@
 .indice ul li h3:nth-of-type(2) {
   margin-left: 40px;
 }
+
+/* PRIMEIROS PASSOS */
+.primeiros-passos {
+  background-color: #f8fbee;
+}
+
+.ods {
+  padding-left: 10px;
+  width: 230px;
+  height: 130px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.ods h2 {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ods h2::after {
+  content: "";
+  background: #3d2007;
+  display: block;
+  height: 3px;
+  margin-left: 80px;
+  width: 60px;
+}
+
+.ods-text {
+  margin-left: 0px;
+  margin-top: 40px;
+  width: 600px;
+}
+
+.ods-text p {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  text-align: left;
+}

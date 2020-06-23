@@ -30,6 +30,20 @@
   color: #fffccc;
 }
 
+.call-to-action {
+  clear: both;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.call-to-action p {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 14px;
+  text-transform: lowercase;
+  margin-bottom: 20px;
+}
+
 .subtitulo {
   color: #3d2007;
   font-family: Metropolis;
@@ -197,7 +211,7 @@
   margin: 10px 27px;
 }
 
-.overview div p {
+.overview-text {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 60px;
@@ -232,7 +246,7 @@
 
 .linhas-categorias {
   /* posiciona as linhas do diagrama */
-  top: 155px;
+  top: 175px;
   display: block;
   /* margin: 0px auto; */
   position: absolute;
