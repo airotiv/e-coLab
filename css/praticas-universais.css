@@ -1,0 +1,71 @@
+.praticas-universais-1 {
+  background-color: #f8fbee;
+  padding-top: 60px;
+}
+
+.praticas-universais-2 {
+  padding-top: 60px;
+}
+
+.praticas-lista {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.praticas-lista-2 {
+  margin-bottom: 40px;
+  text-align: right;
+}
+
+.icone-lab {
+  display: inline-block;
+  text-align: center;
+  width: 233px;
+}
+
+.icone-lab p {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  padding-top: 25px;
+}
+
+.separador-pratica {
+  display: inline-block;
+  height: 170px;
+  margin: 0px 30px 0px 30px;
+}
+
+.pratica {
+  display: inline-block;
+  padding-top: 25px;
+  vertical-align: top;
+  width: 590px;
+  height: 145px;
+}
+
+.pratica p {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+}
+
+.praticas-lista-1 .pratica p {
+  text-align: left;
+}
+
+.praticas-lista-2 .pratica p {
+  text-align: right;
+}
+
+.pratica p a {
+  color: #3d2007;
+  text-decoration: underline;
+}
+
+.pratica p a:hover {
+  color: #a43e00;
+}
