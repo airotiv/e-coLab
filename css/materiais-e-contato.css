@@ -1,0 +1,32 @@
+.materiais {
+  vertical-align: top;
+  width: 227px;
+}
+
+.materiais h2 {
+  padding-top: 0px;
+}
+
+.materiais-linha {
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+.indice-download {
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+
+/* LISTA DE DOWNLOADS */
+.downloads {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.icone-download {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 20px;
+  width: 233px;
+}
