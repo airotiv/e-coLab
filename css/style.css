@@ -15,6 +15,7 @@
   border: 1.4px solid #3d2007;
   border-radius: 30px;
   color: #3d2007;
+  cursor: pointer;
   font-family: Metropolis;
   font-size: 14px;
   letter-spacing: 0.1em;
@@ -85,6 +86,10 @@
   letter-spacing: 0.1em;
   line-height: 20px;
   padding: 10px 0; /* aumenta a area clicavel */
+}
+
+.nav-menu ul li .ativo {
+  color: #a43e00;
 }
 
 .nav-menu ul li a:hover {
@@ -260,6 +265,15 @@
   margin-bottom: 60px;
   margin-left: 75px;
   max-width: 600px;
+}
+
+.overview-text a {
+  color: #3d2007;
+  text-decoration: underline;
+}
+
+.overview-text a:hover {
+  color: #a43e00;
 }
 
 .overview div ul {

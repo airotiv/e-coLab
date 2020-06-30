@@ -18,6 +18,14 @@
   letter-spacing: 0.1em;
 }
 
+.indice ul li h3 a {
+  color: #3d2007;
+}
+
+.indice ul li h3 a:hover {
+  color: #a43e00;
+}
+
 .indice ul li h3:nth-of-type(1) {
   /* numeracao do indice */
   margin-left: 130px;
