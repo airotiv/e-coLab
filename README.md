@@ -9,7 +9,7 @@
 Plataforma Web do e-coLab - Guia Sustentável, projeto de extensão da UFSCar que oferece uma 
 introdução de como tornar os laboratórios universitários mais sustentáveis com base na iniciativas Green Labs. 
 
-## Objetivos da plataforma:
+## Objetivos da plataforma
 
 :trophy: Auxiliar a comunidade universitária a implantar medidas sustentáveis nos laboratórios
 
