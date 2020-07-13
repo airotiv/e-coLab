@@ -71,10 +71,14 @@
 .nav-menu ul li {
   /* itens de nevegacao do menu */
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 20px;
   text-align: center;
   padding: 15px 0;
   width: 100px;
+}
+
+.nav-menu ul .sobre-nos-nav {
+  width: 79px;
 }
 
 .nav-menu ul li a {

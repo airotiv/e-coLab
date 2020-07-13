@@ -49,13 +49,13 @@
 .pratica p {
   color: #3d2007;
   font-family: Metropolis;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 0.1em;
   line-height: 30px;
 }
 
 #atencao {
-  padding-top: 0px;
+  padding-top: 10px;
 }
 
 .praticas-lista-1 .pratica p {
