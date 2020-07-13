@@ -1,12 +1,12 @@
 /* ESTILOS GERAIS */
 @font-face {
   font-family: Metropolis;
-  src: url("../font/Metropolis-master/Fonts/OpenType/Metropolis-Regular.otf");
+  src: url("../font/Metropolis-Regular.otf");
 }
 
 @font-face {
   font-family: Poppins;
-  src: url("../font/Poppins/Poppins-Regular.ttf");
+  src: url("../font/Poppins-Regular.ttf");
 }
 
 .btn {
