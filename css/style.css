@@ -1,4 +1,9 @@
 /* ESTILOS GERAIS */
+
+html {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: Metropolis;
   src: url("../font/Metropolis-Regular.otf");
@@ -7,6 +12,10 @@
 @font-face {
   font-family: Poppins;
   src: url("../font/Poppins-Regular.ttf");
+}
+
+img {
+  max-width: 100%;
 }
 
 .btn {
@@ -216,7 +225,9 @@
 }
 
 .introducao .container img {
-  margin-bottom: 40px;
+  margin: 0 auto 40px auto;
+  display: block;
+  max-width: 100%;
 }
 
 .introducao .btn {
