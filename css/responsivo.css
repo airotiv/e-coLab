@@ -39,4 +39,42 @@
     margin-top: 0;
     height: auto;
   }
+
+  /* Overview */
+  .visao-geral {
+    height: auto;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .overview h2:after {
+    margin: 0;
+  }
+
+  .overview-text {
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .sobre-nos {
+    height: auto;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .objetivos {
+    height: auto;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .overview div ul {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+  }
+  /* CATEGORIAS */
 }
