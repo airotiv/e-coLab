@@ -1,5 +1,44 @@
 /*Estilo para tablets*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*Header*/
+  .nav-menu ul li {
+    margin-left: 0;
+    margin-right: 5px;
+    width: 95px;
+  }
+
+  /* Categorias */
+  .subtitulo-separador,
+  .separador {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+
+  .subtitulo {
+    padding-top: 20px;
+  }
+
+  .linhas-categorias {
+    left: 93px;
+  }
+  .categorias-lista {
+    padding-left: 20px;
+  }
+
+  .categorias-lista li:nth-child(3) {
+    margin-right: 0px;
+  }
+
+  .categorias-lista li:nth-child(1) {
+    margin-right: 127px;
+  }
+
+  /* Footer */
+  .footer li:nth-child(3) {
+    padding-left: 300px;
+  }
 }
 
 /*Estilo para smartphone*/
@@ -86,7 +125,7 @@
     padding: 0;
   }
 
-  .separador .subtitulo {
+  .subtitulo {
     padding-top: 20px;
   }
 
