@@ -76,5 +76,62 @@
     margin-bottom: 60px;
     margin-left: 0px;
   }
-  /* CATEGORIAS */
+
+  /* Categorias */
+  .subtitulo-separador,
+  .separador {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+
+  .separador .subtitulo {
+    padding-top: 20px;
+  }
+
+  .linhas-categorias {
+    display: none;
+  }
+
+  .logo-categorias {
+    display: none;
+  }
+
+  .categorias h3 {
+    color: #3d2007;
+    font-family: Metropolis;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 20px;
+    text-transform: none;
+  }
+
+  .categorias-lista {
+    margin: 20px 0;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .categorias-lista li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 0px;
+    max-width: 95px;
+  }
+
+  .categorias-lista .icone-praticas {
+    height: 78.18px;
+    width: 71.01px;
+  }
+
+  .categorias-lista .icone-economia {
+    height: 78.54px;
+    width: 52.48px;
+  }
+
+  .categorias-lista .icone-conservacao {
+    height: 78.1px;
+    width: 40.34px;
+  }
 }
