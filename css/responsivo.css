@@ -13,6 +13,24 @@
     margin-bottom: 40px;
   }
 
+  /* Indice com resumo */
+  .indice-pagina {
+    height: auto;
+    margin-right: 0px;
+  }
+
+  .indice-pagina h2 {
+    font-size: 24px;
+  }
+
+  .resumo-pagina {
+    width: 510px;
+  }
+
+  .resumo-pagina p {
+    font-size: 18px;
+  }
+
   /* Categorias */
   .subtitulo-separador,
   .separador {
@@ -72,6 +90,23 @@
     font-size: 20px;
   }
 
+  /* Praticas */
+  .icone-lab {
+    width: 135px;
+  }
+
+  .icone-lab p {
+    font-size: 16px;
+  }
+
+  .pratica {
+    width: 500px;
+  }
+
+  .pratica p {
+    font-size: 18px;
+  }
+
   /* Footer */
   .footer li:nth-child(3) {
     padding-left: 300px;
@@ -108,6 +143,15 @@
     width: 120px;
   }
 
+  .nav-menu ul li::after {
+    background-color: #3d2007;
+    content: "";
+    display: block;
+    margin: 10px auto;
+    height: 1px;
+    width: 60px;
+  }
+
   .nav-menu ul li:nth-child(even) {
     margin-left: 20px;
   }
@@ -130,7 +174,7 @@
 
   .titulo-interno h1 {
     font-size: 24px;
-    line-height: 20px;
+    line-height: 30px;
   }
 
   .titulo-interno p {
@@ -151,6 +195,31 @@
 
   .indice ul li h3:nth-of-type(2) {
     margin-left: 0px;
+  }
+
+  /* Indice com resumo */
+  .indice-pagina {
+    margin-top: 0px;
+    margin-right: 0px;
+    height: auto;
+    padding-left: 0px;
+  }
+
+  .indice-pagina h2 {
+    text-align: left;
+  }
+
+  .indice-pagina h2::after {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .resumo-pagina {
+    margin: 0px;
+    width: auto;
+  }
+
+  .resumo-pagina p {
+    font-size: 18px;
   }
 
   /* Overview */
@@ -289,6 +358,56 @@
   .agentes-lista li {
     margin-top: 20px;
   }
+
+  /* Praticas */
+  .praticas-lista {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .icone-lab {
+    display: block;
+    text-align: left;
+  }
+
+  .icone-lab p::after {
+    background-color: #3d2007;
+    content: "";
+    display: block;
+    margin: 15px 0;
+    height: 2px;
+    width: 60px;
+  }
+
+  .separador-pratica {
+    display: none;
+    height: auto;
+  }
+
+  .pratica {
+    display: block;
+    padding-top: 0px;
+    height: auto;
+    max-width: 300px;
+  }
+
+  .pratica p {
+    font-size: 18px;
+  }
+
+  .secao-background-colorido {
+    padding-bottom: 0px;
+  }
+
+  .praticas-lista-2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .praticas-lista-2 .pratica p {
+    text-align: left;
+  }
+
   /* Footer */
   .footer ul {
     margin-left: 0px;
