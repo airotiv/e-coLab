@@ -7,6 +7,12 @@
     width: 95px;
   }
 
+  /* Call to action */
+  .call-to-action {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
   /* Categorias */
   .subtitulo-separador,
   .separador {
@@ -14,6 +20,10 @@
     margin: 0;
     text-align: center;
     padding: 0;
+  }
+
+  .separador img {
+    width: 640px;
   }
 
   .subtitulo {
@@ -35,6 +45,33 @@
     margin-right: 127px;
   }
 
+  /* Indice */
+  .indice ul li h3 {
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  /* Primeiros passos */
+  .ods {
+    display: inline-block;
+    margin-right: 0px;
+    width: auto;
+  }
+
+  .ods h2::after {
+    margin-left: 10px;
+  }
+
+  .ods-text {
+    display: inline-block;
+    margin-left: 40px;
+    width: 600px;
+  }
+
+  .ods-text p {
+    font-size: 20px;
+  }
+
   /* Footer */
   .footer li:nth-child(3) {
     padding-left: 300px;
@@ -47,6 +84,12 @@
   .header {
     position: relative;
     padding-bottom: 0px;
+  }
+
+  /* Call to action */
+  .call-to-action {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .header img {
@@ -77,6 +120,37 @@
   .introducao {
     margin-top: 0;
     height: auto;
+  }
+
+  /* Titulo Interno */
+  .titulo-interno {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+
+  .titulo-interno h1 {
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  .titulo-interno p {
+    font-size: 12px;
+  }
+
+  /* Indice */
+  .indice ul li h3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .indice ul li h3:nth-of-type(1) {
+    /* numeracao do indice */
+    margin-left: 0px;
+    width: 40px;
+  }
+
+  .indice ul li h3:nth-of-type(2) {
+    margin-left: 0px;
   }
 
   /* Overview */
@@ -174,6 +248,47 @@
     width: 40.34px;
   }
 
+  /* Primeiros Passos */
+  .ods {
+    height: auto;
+    padding-left: 0px;
+    width: auto;
+  }
+
+  .ods h2 {
+    text-align: left;
+  }
+
+  .ods h2::after {
+    margin-left: 0px;
+  }
+
+  .ods-text {
+    margin-top: 20px;
+    padding-left: 0px;
+    width: auto;
+  }
+
+  .ods-text p {
+    font-size: 20px;
+  }
+
+  .ods-12-13 img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .separador-agentes {
+    display: none;
+  }
+
+  .agentes-lista {
+    margin-bottom: 0px;
+  }
+
+  .agentes-lista li {
+    margin-top: 20px;
+  }
   /* Footer */
   .footer ul {
     margin-left: 0px;
