@@ -182,7 +182,7 @@
 
   .nav-menu ul li {
     margin: 10px 0 0 0;
-    padding: 10px 0;
+    padding: 0px 0px;
     width: 120px;
   }
 
@@ -190,7 +190,7 @@
     background-color: #3d2007;
     content: "";
     display: block;
-    margin: 10px auto;
+    margin: 15px auto 5px auto;
     height: 1px;
     width: 60px;
   }
@@ -201,6 +201,14 @@
 
   .nav-menu ul .sobre-nos-nav {
     width: 120px;
+  }
+
+  .nav-menu ul .materiais-nav::after {
+    display: none;
+  }
+
+  .nav-menu ul .sobre-nos-nav::after {
+    display: none;
   }
 
   /* Introducao */
