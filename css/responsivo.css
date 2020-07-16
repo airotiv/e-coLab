@@ -107,6 +107,7 @@
     font-size: 18px;
   }
 
+  /* Pagina 'Materiais e Contato' */
   .indice-download {
     padding-top: 40px;
   }
@@ -115,6 +116,40 @@
     margin: 0 auto;
   }
 
+  .praticas-lista-2 .pratica {
+    width: 500px;
+  }
+
+  .icone-download {
+    width: auto;
+  }
+
+  .sobre {
+    height: auto;
+    margin-top: 40px;
+    margin-right: 40px;
+    padding-left: 0px;
+    width: auto;
+  }
+
+  .sobre h2 {
+    padding: 0px 0px;
+    text-align: left;
+  }
+
+  .sobre-text {
+    margin: 40px 0px 40px 0px;
+  }
+
+  .sobre-text p {
+    font-size: 18px;
+  }
+
+  /* Formulario de contato */
+  .form-contato {
+    margin-left: 20px;
+  }
+  /* Fim da Pagina 'Materiais e Contato' */
   /* Footer */
   .footer li:nth-child(3) {
     padding-left: 300px;
