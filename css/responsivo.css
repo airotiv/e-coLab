@@ -107,6 +107,14 @@
     font-size: 18px;
   }
 
+  .indice-download {
+    padding-top: 40px;
+  }
+
+  .materiais {
+    margin: 0 auto;
+  }
+
   /* Footer */
   .footer li:nth-child(3) {
     padding-left: 300px;
@@ -406,6 +414,71 @@
 
   .praticas-lista-2 .pratica p {
     text-align: left;
+  }
+
+  .materiais {
+    margin: 0 auto;
+  }
+
+  .praticas-lista-2 .icone-download {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .green-labs h2 {
+    padding-top: 40px;
+  }
+
+  .green-labs h3 {
+    padding: 0px;
+  }
+
+  .green-labs .descricao-green-labs {
+    padding: 30px 0px 0px 0px;
+  }
+
+  .mais-sobre-guia {
+    padding-top: 40px;
+  }
+
+  .sobre {
+    height: auto;
+    margin-right: 0px;
+    margin-top: 20px;
+    padding-left: 0px;
+    width: auto;
+  }
+
+  .sobre h2 {
+    padding: 0px 0px;
+    text-align: left;
+  }
+
+  .sobre h2::after {
+    margin: 0px 0px;
+  }
+
+  .sobre-text {
+    margin: 0px 0px 0px 0px;
+    width: auto;
+  }
+
+  .sobre-text p {
+    font-size: 18px;
+  }
+
+  /* Formulario de contato */
+  .form-contato {
+    margin-left: 0px;
+  }
+
+  .form-contato input {
+    width: 300px;
+  }
+
+  .form-contato textarea {
+    width: 300px;
   }
 
   /* Footer */
