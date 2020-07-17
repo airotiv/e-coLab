@@ -149,20 +149,20 @@
       <p>Fale conosco</p>
     </div>
     <div class="container">
-      <form id="form_contato" class="form-contato grid-12">
+      <form id="form_contato" method="POST" action="https://formspree.io/meqrpnnb" class="form-contato grid-12">
         <label for="nome">Nome</label>
-        <input type="text" id="nome">
+        <input name="nome" id="nome" type="text" required>
 
         <label for="email">E-mail</label>
-        <input type="text" id="email">
+        <input name="email" id="email" type="email" required>
 
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone">
+        <input name="telefone" id="telefone" type="text">
 
         <label for="mensagem">Mensagem</label>
-        <textarea id="mensagem"></textarea>
+        <textarea id="mensagem" name="mensagem" required></textarea>
 
-        <button type="submit" class="btn">Enviar</button>
+        <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
       </form>
     </div>
   </section>
