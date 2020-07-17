@@ -228,6 +228,10 @@
     line-height: 30px;
   }
 
+  .titulo-interno h1::after {
+    margin: 10px auto;
+  }
+
   .titulo-interno p {
     font-size: 12px;
   }
