@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/purpleviv/e-coLab/blob/master/img/titulo.png">
+  <img src="web/img/titulo.png">
 </p>
 
 > Status do Projeto: Em andamento :construction:
