@@ -11,8 +11,16 @@ introdução de como tornar os laboratórios universitários mais sustentáveis 
 
 ## Objetivos da plataforma
 
-:trophy: Auxiliar a comunidade universitária a implantar medidas sustentáveis nos laboratórios
+:diamonds: Auxiliar a comunidade universitária a implantar medidas sustentáveis nos laboratórios
 
-:trophy: Documentar as ações que já são praticadas dentro dos laboratórios da UFSCar
+:diamonds: Documentar as ações que já são praticadas dentro dos laboratórios da UFSCar
 
-:trophy: Propor ações básicas para a redução no consumo de energia e desperdício de materiais
+:diamonds: Propor ações básicas para a redução no consumo de energia e desperdício de materiais
+
+## Arquivos deste repositório
+
+:pushpin: Pasta design: contém arquivos do design do site desenvolvidos no Adobe XD
+
+:pushpin: Pasta wireframe: contém o wireframe do projeto
+
+:pushpin: Pasta web: contém os arquivos HTML e arquivos de estilo (CSS, imagens, js)
