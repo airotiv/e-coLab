@@ -25,7 +25,7 @@
 }
 
 .icone-lab p {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 18px;
   letter-spacing: 0.1em;
@@ -47,7 +47,7 @@
 }
 
 .pratica p {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 20px;
   letter-spacing: 0.1em;
@@ -67,10 +67,10 @@
 }
 
 .pratica p a {
-  color: #3d2007;
+  color: $color-text-base;
   text-decoration: underline;
 }
 
 .pratica p a:hover {
-  color: #a43e00;
+  color: $color-text-hover;
 }

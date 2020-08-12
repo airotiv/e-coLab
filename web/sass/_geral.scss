@@ -21,9 +21,9 @@ img {
 .btn {
   /* botoes */
   background-color: #ff6100;
-  border: 1.4px solid #3d2007;
+  border: 1.4px solid $color-text-base;
   border-radius: 30px;
-  color: #3d2007;
+  color: $color-text-base;
   cursor: pointer;
   font-family: Metropolis;
   font-size: 14px;
@@ -36,7 +36,7 @@ img {
 
 .btn:hover {
   /* background-color: #ff914d; */
-  border-color: #a43e00;
+  border-color: $color-text-hover;
   color: #fffccc;
 }
 
@@ -48,14 +48,14 @@ img {
 }
 
 .call-to-action p {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 14px;
   margin-bottom: 20px;
 }
 
 .subtitulo {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 24px;
   line-height: 30px;
@@ -92,7 +92,7 @@ img {
 
 .nav-menu ul li a {
   /* tipografia dos itens de navegacao-menu */
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 14px;
   font-weight: bold;
@@ -102,11 +102,11 @@ img {
 }
 
 .nav-menu ul li .ativo {
-  color: #a43e00;
+  color: $color-text-hover;
 }
 
 .nav-menu ul li a:hover {
-  color: #a43e00;
+  color: $color-text-hover;
 }
 
 /* TITULO INTERNO*/
@@ -120,7 +120,7 @@ img {
 }
 
 .titulo-interno h1 {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Poppins;
   font-size: 36px;
   line-height: 40px;
@@ -129,7 +129,7 @@ img {
 }
 
 .titulo-interno h1::after {
-  background-color: #3d2007;
+  background-color: $color-text-base;
   content: "";
   display: block;
   margin: 15px auto;
@@ -170,7 +170,7 @@ img {
 }
 
 .indice-pagina h2 {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 36px;
   letter-spacing: 0.1em;
@@ -180,7 +180,7 @@ img {
 
 .indice-pagina h2::after {
   content: "";
-  background: #3d2007;
+  background: $color-text-base;
   display: block;
   height: 3px;
   margin: 10px 0px 0px 80px;
@@ -193,7 +193,7 @@ img {
 }
 
 .resumo-pagina p {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 24px;
   letter-spacing: 0.1em;
@@ -202,12 +202,12 @@ img {
 }
 
 .resumo-pagina a {
-  color: #3d2007;
+  color: $color-text-base;
   text-decoration: underline;
 }
 
 .resumo-pagina a:hover {
-  color: #a43e00;
+  color: $color-text-hover;
 }
 /* FIM DOS ESTILOS GERAIS */
 
@@ -236,7 +236,7 @@ img {
 /* OVERVIEW */
 
 .overview {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   margin-top: 60px;
 }
@@ -263,7 +263,7 @@ img {
 
 .overview h2:after {
   content: "";
-  background: #3d2007;
+  background: $color-text-base;
   display: block;
   height: 3px;
   width: 60px;
@@ -290,12 +290,12 @@ img {
 }
 
 .overview-text a {
-  color: #3d2007;
+  color: $color-text-base;
   text-decoration: underline;
 }
 
 .overview-text a:hover {
-  color: #a43e00;
+  color: $color-text-hover;
 }
 
 .overview div ul {
@@ -333,7 +333,7 @@ img {
 }
 
 .categorias h3 {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 18px;
   line-height: 25px;

@@ -187,7 +187,7 @@
   }
 
   .nav-menu ul li::after {
-    background-color: #3d2007;
+    background-color: $color-text-base;
     content: "";
     display: block;
     margin: 15px auto 5px auto;
@@ -336,7 +336,7 @@
   }
 
   .categorias h3 {
-    color: #3d2007;
+    color: $color-text-base;
     font-family: Metropolis;
     font-size: 15px;
     line-height: 15px;
@@ -426,7 +426,7 @@
   }
 
   .icone-lab p::after {
-    background-color: #3d2007;
+    background-color: $color-text-base;
     content: "";
     display: block;
     margin: 15px 0;

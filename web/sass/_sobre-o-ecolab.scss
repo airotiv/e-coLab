@@ -1,5 +1,5 @@
 .sobre-o-ecolab div {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   margin-top: 60px;
   padding-left: 50px;
@@ -14,7 +14,7 @@
 }
 
 .sobre-o-ecolab div h2::after {
-  background-color: #3d2007;
+  background-color: $color-text-base;
   content: "";
   display: block;
   height: 3px;
@@ -30,13 +30,13 @@
 
 .sobre-o-ecolab div p a,
 .sobre-o-ecolab div ul li a {
-  color: #3d2007;
+  color: $color-text-base;
   text-decoration: underline;
 }
 
 .sobre-o-ecolab div p a:hover,
 .sobre-o-ecolab div ul li a:hover {
-  color: #a43e00;
+  color: $color-text-hover;
 }
 
 .sobre-o-ecolab div ul {

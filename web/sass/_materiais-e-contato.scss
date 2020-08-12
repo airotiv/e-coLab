@@ -38,7 +38,7 @@
 /* GREEN-LABS */
 .green-labs {
   background-color: #f8fbee;
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   padding-bottom: 60px;
 }
@@ -52,7 +52,7 @@
 }
 
 .green-labs h2::after {
-  background-color: #3d2007;
+  background-color: $color-text-base;
   content: "";
   display: block;
   height: 3px;
@@ -86,9 +86,9 @@
 .btn-universidade {
   /* botoes */
   background-color: #ff6100;
-  border: 1.4px solid #3d2007;
+  border: 1.4px solid $color-text-base;
   border-radius: 10px;
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 14px;
   letter-spacing: 0.1em;
@@ -132,7 +132,7 @@
 }
 
 .sobre h2 {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 18px;
   letter-spacing: 0.1em;
@@ -144,7 +144,7 @@
 
 .sobre h2::after {
   content: "";
-  background: #3d2007;
+  background: $color-text-base;
   display: block;
   height: 3px;
   margin: 0px auto;
@@ -157,7 +157,7 @@
 }
 
 .sobre-text p {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 24px;
   letter-spacing: 0.1em;
@@ -178,7 +178,7 @@
 }
 
 .form-contato label {
-  color: #3d2007;
+  color: $color-text-base;
   font-family: Metropolis;
   font-size: 18px;
   letter-spacing: 0.1em;
@@ -189,7 +189,7 @@
 
 .form-contato input {
   background-color: #ff914d;
-  border: 0px solid #3d2007;
+  border: 0px solid $color-text-base;
   display: block;
   font-family: Metropolis;
   font-size: 14px;
@@ -203,7 +203,7 @@
 
 .form-contato textarea {
   background-color: #ff914d;
-  border: 0px solid #3d2007;
+  border: 0px solid $color-text-base;
   display: block;
   font-family: Metropolis;
   font-size: 14px;
