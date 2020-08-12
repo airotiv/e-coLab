@@ -37,7 +37,7 @@
 
 /* GREEN-LABS */
 .green-labs {
-  background-color: #f8fbee;
+  background-color: $color-primary-light;
   color: $color-text-base;
   font-family: Metropolis;
   padding-bottom: 60px;
@@ -85,7 +85,7 @@
 
 .btn-universidade {
   /* botoes */
-  background-color: #ff6100;
+  background-color: $color-button;
   border: 1.4px solid $color-text-base;
   border-radius: 10px;
   color: $color-text-base;
@@ -102,7 +102,7 @@
 }
 
 .btn-universidade:hover {
-  color: #fffccc;
+  color: $color-primary;
 }
 
 /* MAIS SOBRE */
@@ -167,7 +167,7 @@
 
 /* CONTATO */
 .contato {
-  background-color: #fffccc;
+  background-color: $color-primary;
 }
 
 .form-contato {
@@ -188,7 +188,7 @@
 }
 
 .form-contato input {
-  background-color: #ff914d;
+  background-color: $color-input-forms;
   border: 0px solid $color-text-base;
   display: block;
   font-family: Metropolis;
@@ -202,7 +202,7 @@
 }
 
 .form-contato textarea {
-  background-color: #ff914d;
+  background-color: $color-input-forms;
   border: 0px solid $color-text-base;
   display: block;
   font-family: Metropolis;

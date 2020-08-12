@@ -20,7 +20,7 @@ img {
 
 .btn {
   /* botoes */
-  background-color: #ff6100;
+  background-color: $color-button;
   border: 1.4px solid $color-text-base;
   border-radius: 30px;
   color: $color-text-base;
@@ -35,9 +35,8 @@ img {
 }
 
 .btn:hover {
-  /* background-color: #ff914d; */
   border-color: $color-text-hover;
-  color: #fffccc;
+  color: $color-primary;
 }
 
 .call-to-action {
@@ -64,7 +63,7 @@ img {
 }
 
 .header {
-  background-color: #fffccc;
+  background-color: $color-primary;
   position: fixed;
   padding: 10px 0;
   top: 0;
@@ -111,7 +110,7 @@ img {
 
 /* TITULO INTERNO*/
 .titulo-interno {
-  background-color: #fffccc;
+  background-color: $color-primary;
   height: 160px;
   margin-top: 90px; /* altura do header */
   padding-top: 40px;
@@ -138,7 +137,7 @@ img {
 }
 
 .titulo-interno p {
-  color: #7c4d25;
+  color: $color-text-subtitle;
   font-family: Metropolis;
   letter-spacing: 0.1em;
   line-height: 20px;
@@ -213,7 +212,7 @@ img {
 
 /* INTRODUCAO */
 .introducao {
-  background-color: #fffccc;
+  background-color: $color-primary;
   margin-top: 90px; /* altura do header */
   width: 100%;
 }
@@ -312,7 +311,7 @@ img {
 
 /* CATEGORIAS */
 .categorias {
-  background-color: #f8fbee;
+  background-color: $color-primary-light;
 }
 /* Para estilizar o titulo da secao 'tipo de categorias'
 é utilizada a classe subtitulo-separdor dos estilos gerais */
@@ -356,7 +355,7 @@ img {
 
 /* FOOTER */
 .footer {
-  background-color: #262626;
+  background-color: $color-box-footer;
 }
 
 .footer ul {
@@ -369,7 +368,7 @@ img {
   display: inline-block;
 }
 .footer li:nth-child(1) {
-  color: #f8fbee;
+  color: $color-primary-light;
   font-family: Metropolis;
   font-size: 18px;
   line-height: 25px;
@@ -379,7 +378,7 @@ img {
 }
 
 .footer li:nth-child(2) {
-  color: #fffccc;
+  color: $color-primary;
   font-family: Metropolis;
   font-size: 14px;
   line-height: 20px;
@@ -388,7 +387,7 @@ img {
 }
 
 .footer li:nth-child(3) {
-  color: #f8fbee;
+  color: $color-primary-light;
   font-family: Metropolis;
   font-size: 14px;
   line-height: 20px;

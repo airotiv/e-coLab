@@ -1,7 +1,25 @@
+// Colores
 $color-text-base: #3d2007;
+$color-text-subtitle: #7c4d25;
 $color-text-hover: #a43e00;
 $color-primary: #fffccc;
 $color-primary-light: #f8fbee;
 $color-button: #ff6100;
 $color-box-footer: #262626;
 $color-input-forms: #ff914d; //(47%)
+
+// Tipografia
+@mixin type1($tamanho) {
+  @if $tamanho == 14 {
+    font-size: 14px;
+    line-height: 20px;
+  } @else if $tamanho == 18 {
+    font-size: 18px;
+    line-height: 25px;
+  } @else if $tamanho == 24 {
+    font-size: 24px;
+    line-height: 30px;
+  } @else if $tamanho == 36 {
+    font-size: 36px;
+  }
+}
