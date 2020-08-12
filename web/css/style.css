@@ -1,5 +1,580 @@
-/* ESTILOS GERAIS */
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
 
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+/**
+ * Remove anchor text-decoration
+ */
+a {
+  text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */
+ol,
+ul {
+  list-style: none;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+em,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+footer,
+header,
+nav,
+section,
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+.container:after, .container:before {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.grid-1 {
+  width: 40px;
+}
+
+.grid-2 {
+  width: 100px;
+}
+
+.grid-3 {
+  width: 160px;
+}
+
+.grid-4 {
+  width: 220px;
+}
+
+.grid-5 {
+  width: 280px;
+}
+
+.grid-6 {
+  width: 340px;
+}
+
+.grid-7 {
+  width: 400px;
+}
+
+.grid-8 {
+  width: 460px;
+}
+
+.grid-9 {
+  width: 520px;
+}
+
+.grid-10 {
+  width: 580px;
+}
+
+.grid-11 {
+  width: 640px;
+}
+
+.grid-12 {
+  width: 700px;
+}
+
+.grid-13 {
+  width: 760px;
+}
+
+.grid-14 {
+  width: 820px;
+}
+
+.grid-15 {
+  width: 880px;
+}
+
+.grid-16 {
+  width: 940px;
+}
+
+.grid-1-3 {
+  width: 300px;
+}
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .container {
+    width: 768px;
+  }
+  .grid-1 {
+    width: 28px;
+  }
+  .grid-2 {
+    width: 76px;
+  }
+  .grid-3 {
+    width: 124px;
+  }
+  .grid-4 {
+    width: 172px;
+  }
+  .grid-5 {
+    width: 220px;
+  }
+  .grid-6 {
+    width: 268px;
+  }
+  .grid-7 {
+    width: 316px;
+  }
+  .grid-8 {
+    width: 364px;
+  }
+  .grid-9 {
+    width: 412px;
+  }
+  .grid-10 {
+    width: 460px;
+  }
+  .grid-11 {
+    width: 508px;
+  }
+  .grid-12 {
+    width: 556px;
+  }
+  .grid-13 {
+    width: 604px;
+  }
+  .grid-14 {
+    width: 652px;
+  }
+  .grid-15 {
+    width: 700px;
+  }
+  .grid-16 {
+    width: 748px;
+  }
+  .grid-1-3 {
+    width: 236px;
+  }
+}
+
+@media only screen and (max-width: 787px) {
+  .container {
+    width: 300px;
+  }
+  .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+    width: 300px;
+    margin: 0 0 20px 0;
+    float: none;
+  }
+}
+
+/* ESTILOS GERAIS */
 html {
   overflow-x: hidden;
 }
@@ -98,7 +673,8 @@ img {
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 20px;
-  padding: 10px 0; /* aumenta a area clicavel */
+  padding: 10px 0;
+  /* aumenta a area clicavel */
 }
 
 .nav-menu ul li .ativo {
@@ -113,7 +689,8 @@ img {
 .titulo-interno {
   background-color: #fffccc;
   height: 160px;
-  margin-top: 90px; /* altura do header */
+  margin-top: 90px;
+  /* altura do header */
   padding-top: 40px;
   text-align: center;
   width: 100%;
@@ -145,7 +722,6 @@ img {
 }
 
 /* SUBTITULO SEGUIDO DE SEPARADOR */
-
 .subtitulo-separador {
   padding-left: 10px;
   margin-right: 40px;
@@ -159,6 +735,7 @@ img {
 .separador img {
   padding-bottom: 6px;
 }
+
 /* INTRODUCAO NUMERADA COM RESUMO */
 /* Paginas do guia que iniciam com numeracao e pequeno resumo apos menu */
 .indice-pagina {
@@ -209,12 +786,13 @@ img {
 .resumo-pagina a:hover {
   color: #a43e00;
 }
-/* FIM DOS ESTILOS GERAIS */
 
+/* FIM DOS ESTILOS GERAIS */
 /* INTRODUCAO */
 .introducao {
   background-color: #fffccc;
-  margin-top: 90px; /* altura do header */
+  margin-top: 90px;
+  /* altura do header */
   width: 100%;
 }
 
@@ -234,7 +812,6 @@ img {
 }
 
 /* OVERVIEW */
-
 .overview {
   color: #3d2007;
   font-family: Metropolis;
@@ -314,6 +891,7 @@ img {
 .categorias {
   background-color: #f8fbee;
 }
+
 /* Para estilizar o titulo da secao 'tipo de categorias'
 é utilizada a classe subtitulo-separdor dos estilos gerais */
 .logo-categorias {
@@ -368,6 +946,7 @@ img {
 .footer ul li:nth-of-type(3) {
   display: inline-block;
 }
+
 .footer li:nth-child(1) {
   color: #f8fbee;
   font-family: Metropolis;
@@ -402,11 +981,940 @@ img {
 }
 
 .js .fadeInDown {
-  transform: translate3d(0, -20px, 0);
+  -webkit-transform: translate3d(0, -20px, 0);
+          transform: translate3d(0, -20px, 0);
 }
 
 .js .anime {
   opacity: 1;
-  transform: none;
+  -webkit-transform: none;
+          transform: none;
+  -webkit-transition: opacity 800ms, -webkit-transform 800ms;
+  transition: opacity 800ms, -webkit-transform 800ms;
   transition: opacity 800ms, transform 800ms;
+  transition: opacity 800ms, transform 800ms, -webkit-transform 800ms;
 }
+
+/* INDICE */
+.indice {
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.indice ul li {
+  /* espaçamento entre cada item da lista */
+  margin-top: 40px;
+}
+
+.indice ul li h3 {
+  color: #3d2007;
+  display: inline-block;
+  font-family: Metropolis;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+}
+
+.indice ul li h3 a {
+  color: #3d2007;
+}
+
+.indice ul li h3 a:hover {
+  color: #a43e00;
+}
+
+.indice ul li h3:nth-of-type(1) {
+  /* numeracao do indice */
+  margin-left: 130px;
+  width: 60px;
+}
+
+.indice ul li h3:nth-of-type(2) {
+  margin-left: 40px;
+}
+
+/* PRIMEIROS PASSOS */
+.primeiros-passos {
+  background-color: #f8fbee;
+}
+
+.ods {
+  padding-left: 10px;
+  width: 230px;
+  height: 130px;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+
+.ods h2 {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ods h2::after {
+  content: "";
+  background: #3d2007;
+  display: block;
+  height: 3px;
+  margin-left: 80px;
+  width: 60px;
+}
+
+.ods-text {
+  margin-top: 60px;
+  width: 600px;
+}
+
+.ods-text p {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  text-align: left;
+}
+
+.ods-12-13 {
+  display: inline-block;
+  padding-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+/* AGENTES */
+.agentes-lista {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.agentes-lista p {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  padding-top: 25px;
+}
+
+.frequentadores-lab {
+  display: inline-block;
+  text-align: center;
+  width: 233px;
+}
+
+.separador-agentes {
+  display: inline-block;
+  height: 240px;
+  margin: 0px 30px 0px 30px;
+}
+
+.lider-lab {
+  display: inline-block;
+  text-align: center;
+  width: 233px;
+}
+
+.secao-background-colorido {
+  background-color: #f8fbee;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.secao-background-branco {
+  padding-top: 60px;
+}
+
+.praticas-lista {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.praticas-lista-2 {
+  margin-bottom: 40px;
+  text-align: right;
+}
+
+.icone-lab {
+  display: inline-block;
+  text-align: center;
+  width: 233px;
+}
+
+.icone-lab p {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  padding-top: 25px;
+}
+
+.separador-pratica {
+  display: inline-block;
+  height: 170px;
+  margin: 0px 30px 0px 30px;
+}
+
+.pratica {
+  display: inline-block;
+  padding-top: 25px;
+  vertical-align: top;
+  width: 590px;
+  height: 145px;
+}
+
+.pratica p {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+}
+
+#atencao {
+  padding-top: 10px;
+}
+
+.praticas-lista-1 .pratica p {
+  text-align: left;
+}
+
+.praticas-lista-2 .pratica p {
+  text-align: right;
+}
+
+.pratica p a {
+  color: #3d2007;
+  text-decoration: underline;
+}
+
+.pratica p a:hover {
+  color: #a43e00;
+}
+
+.materiais {
+  vertical-align: top;
+  width: 227px;
+}
+
+.materiais h2 {
+  padding-top: 0px;
+}
+
+.materiais-linha {
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+.indice-download {
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+
+/* LISTA DE DOWNLOADS */
+.downloads {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.icone-download {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 20px;
+  width: 233px;
+}
+
+.pratica p a {
+  text-decoration: none;
+}
+
+/* GREEN-LABS */
+.green-labs {
+  background-color: #f8fbee;
+  color: #3d2007;
+  font-family: Metropolis;
+  padding-bottom: 60px;
+}
+
+.green-labs h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.green-labs h2::after {
+  background-color: #3d2007;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 15px auto;
+  width: 60px;
+}
+
+.green-labs h3 {
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0px 130px 0px 130px;
+}
+
+.green-labs .descricao-green-labs {
+  font-size: 18px;
+  text-align: center;
+  padding: 30px 180px 0px 180px;
+  margin-bottom: 60px;
+}
+
+.universidades {
+  text-align: center;
+}
+
+.universidades img {
+  display: block;
+  margin: 0px auto;
+}
+
+.btn-universidade {
+  /* botoes */
+  background-color: #ff6100;
+  border: 1.4px solid #3d2007;
+  border-radius: 10px;
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 160px;
+  display: block;
+  margin: 0px auto;
+}
+
+.btn-universidade:hover {
+  color: #fffccc;
+}
+
+/* MAIS SOBRE */
+.mais-sobre-guia {
+  padding-top: 60px;
+}
+
+.mais-sobre {
+  vertical-align: top;
+}
+
+.mais-sobre h2 {
+  padding-top: 0px;
+}
+
+.mais-sobre-linha {
+  padding-top: 8px;
+  vertical-align: top;
+}
+
+.sobre {
+  padding-left: 10px;
+  width: 230px;
+  height: 130px;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+
+.sobre h2 {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 25px;
+  padding: 0px 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sobre h2::after {
+  content: "";
+  background: #3d2007;
+  display: block;
+  height: 3px;
+  margin: 0px auto;
+  width: 60px;
+}
+
+.sobre-text {
+  margin: 60px 0px 100px 0px;
+  width: 600px;
+}
+
+.sobre-text p {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* CONTATO */
+.contato {
+  background-color: #fffccc;
+}
+
+.form-contato {
+  padding-top: 60px;
+  display: block;
+  margin-left: 130px;
+  margin-bottom: 60px;
+}
+
+.form-contato label {
+  color: #3d2007;
+  font-family: Metropolis;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 25px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.form-contato input {
+  background-color: #ff914d;
+  border: 0px solid #3d2007;
+  display: block;
+  font-family: Metropolis;
+  font-size: 14px;
+  height: 40px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  outline: none;
+  width: 700px;
+}
+
+.form-contato textarea {
+  background-color: #ff914d;
+  border: 0px solid #3d2007;
+  display: block;
+  font-family: Metropolis;
+  font-size: 14px;
+  height: 120px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  outline: none;
+  width: 700px;
+}
+
+.sobre-o-ecolab div {
+  color: #3d2007;
+  font-family: Metropolis;
+  margin-top: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.sobre-o-ecolab div h2 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.sobre-o-ecolab div h2::after {
+  background-color: #3d2007;
+  content: "";
+  display: block;
+  height: 3px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 60px;
+}
+
+.sobre-o-ecolab div p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.sobre-o-ecolab div p a,
+.sobre-o-ecolab div ul li a {
+  color: #3d2007;
+  text-decoration: underline;
+}
+
+.sobre-o-ecolab div p a:hover,
+.sobre-o-ecolab div ul li a:hover {
+  color: #a43e00;
+}
+
+.sobre-o-ecolab div ul {
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*Header*/
+  .nav-menu ul li {
+    margin-left: 0;
+    margin-right: 5px;
+    width: 95px;
+  }
+  /* Call to action */
+  .call-to-action {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  /* Indice com resumo */
+  .indice-pagina {
+    height: auto;
+    margin-right: 0px;
+  }
+  .indice-pagina h2 {
+    font-size: 24px;
+  }
+  .resumo-pagina {
+    width: 510px;
+  }
+  .resumo-pagina p {
+    font-size: 18px;
+  }
+  /* Categorias */
+  .subtitulo-separador,
+  .separador {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+  .separador img {
+    width: 640px;
+  }
+  .subtitulo {
+    padding-top: 20px;
+  }
+  .linhas-categorias {
+    left: 93px;
+  }
+  .categorias-lista {
+    padding-left: 20px;
+  }
+  .categorias-lista li:nth-child(3) {
+    margin-right: 0px;
+  }
+  .categorias-lista li:nth-child(1) {
+    margin-right: 127px;
+  }
+  /* Indice */
+  .indice ul li h3 {
+    font-size: 24px;
+    line-height: 20px;
+  }
+  /* Primeiros passos */
+  .ods {
+    display: inline-block;
+    margin-right: 0px;
+    width: auto;
+  }
+  .ods h2::after {
+    margin-left: 10px;
+  }
+  .ods-text {
+    display: inline-block;
+    margin-left: 40px;
+    width: 600px;
+  }
+  .ods-text p {
+    font-size: 20px;
+  }
+  /* Praticas */
+  .icone-lab {
+    width: 135px;
+  }
+  .icone-lab p {
+    font-size: 16px;
+  }
+  .pratica {
+    width: 500px;
+  }
+  .pratica p {
+    font-size: 18px;
+  }
+  /* Pagina 'Materiais e Contato' */
+  .indice-download {
+    padding-top: 40px;
+  }
+  .materiais {
+    margin: 0 auto;
+  }
+  .praticas-lista-2 .pratica {
+    width: 500px;
+  }
+  .icone-download {
+    width: auto;
+  }
+  .sobre {
+    height: auto;
+    margin-top: 40px;
+    margin-right: 40px;
+    padding-left: 0px;
+    width: auto;
+  }
+  .sobre h2 {
+    padding: 0px 0px;
+    text-align: left;
+  }
+  .sobre-text {
+    margin: 40px 0px 40px 0px;
+  }
+  .sobre-text p {
+    font-size: 18px;
+  }
+  /* Formulario de contato */
+  .form-contato {
+    margin-left: 20px;
+  }
+  /* Fim da Pagina 'Materiais e Contato' */
+  /* Footer */
+  .footer li:nth-child(3) {
+    padding-left: 300px;
+  }
+}
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+  /*Header*/
+  .header {
+    position: relative;
+    padding-bottom: 0px;
+  }
+  /* Call to action */
+  .call-to-action {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .header img {
+    display: block;
+    margin: 0 auto;
+  }
+  .nav-menu {
+    text-align: center;
+    margin: 0;
+  }
+  .nav-menu ul li {
+    margin: 10px 0 0 0;
+    padding: 0px 0px;
+    width: 120px;
+  }
+  .nav-menu ul li::after {
+    background-color: #3d2007;
+    content: "";
+    display: block;
+    margin: 15px auto 5px auto;
+    height: 1px;
+    width: 60px;
+  }
+  .nav-menu ul li:nth-child(even) {
+    margin-left: 20px;
+  }
+  .nav-menu ul .sobre-nos-nav {
+    width: 120px;
+  }
+  .nav-menu ul .materiais-nav::after {
+    display: none;
+  }
+  .nav-menu ul .sobre-nos-nav::after {
+    display: none;
+  }
+  /* Introducao */
+  .introducao {
+    margin-top: 0;
+    height: auto;
+  }
+  /* Titulo Interno */
+  .titulo-interno {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+  .titulo-interno h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .titulo-interno h1::after {
+    margin: 10px auto;
+  }
+  .titulo-interno p {
+    font-size: 12px;
+  }
+  /* Indice */
+  .indice ul li h3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .indice ul li h3:nth-of-type(1) {
+    /* numeracao do indice */
+    margin-left: 0px;
+    width: 40px;
+  }
+  .indice ul li h3:nth-of-type(2) {
+    margin-left: 0px;
+  }
+  /* Indice com resumo */
+  .indice-pagina {
+    margin-top: 0px;
+    margin-right: 0px;
+    height: auto;
+    padding-left: 0px;
+  }
+  .indice-pagina h2 {
+    text-align: left;
+  }
+  .indice-pagina h2::after {
+    margin: 10px 0px 0px 0px;
+  }
+  .resumo-pagina {
+    margin: 0px;
+    width: auto;
+  }
+  .resumo-pagina p {
+    font-size: 18px;
+  }
+  /* Overview */
+  .visao-geral {
+    height: auto;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .overview h2:after {
+    margin: 0;
+  }
+  .overview-text {
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    text-align: left;
+  }
+  .sobre-nos {
+    height: auto;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .objetivos {
+    height: auto;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .overview div ul {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+  }
+  /* Categorias */
+  .subtitulo-separador,
+  .separador {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+  .subtitulo {
+    padding-top: 20px;
+  }
+  .linhas-categorias {
+    display: none;
+  }
+  .logo-categorias {
+    display: none;
+  }
+  .categorias h3 {
+    color: #3d2007;
+    font-family: Metropolis;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 20px;
+    text-transform: none;
+  }
+  .categorias-lista {
+    margin: 20px 0;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .categorias-lista li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 0px;
+    max-width: 95px;
+  }
+  .categorias-lista .icone-praticas {
+    height: 78.18px;
+    width: 71.01px;
+  }
+  .categorias-lista .icone-economia {
+    height: 78.54px;
+    width: 52.48px;
+  }
+  .categorias-lista .icone-conservacao {
+    height: 78.1px;
+    width: 40.34px;
+  }
+  /* Primeiros Passos */
+  .ods {
+    height: auto;
+    padding-left: 0px;
+    width: auto;
+  }
+  .ods h2 {
+    text-align: left;
+  }
+  .ods h2::after {
+    margin-left: 0px;
+  }
+  .ods-text {
+    margin-top: 20px;
+    padding-left: 0px;
+    width: auto;
+  }
+  .ods-text p {
+    font-size: 20px;
+  }
+  .ods-12-13 img {
+    height: 100px;
+    width: 100px;
+  }
+  .separador-agentes {
+    display: none;
+  }
+  .agentes-lista {
+    margin-bottom: 0px;
+  }
+  .agentes-lista li {
+    margin-top: 20px;
+  }
+  /* Praticas */
+  .praticas-lista {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .icone-lab {
+    display: block;
+    text-align: left;
+  }
+  .icone-lab p::after {
+    background-color: #3d2007;
+    content: "";
+    display: block;
+    margin: 15px 0;
+    height: 2px;
+    width: 60px;
+  }
+  .separador-pratica {
+    display: none;
+    height: auto;
+  }
+  .pratica {
+    display: block;
+    padding-top: 0px;
+    height: auto;
+    max-width: 300px;
+  }
+  .pratica p {
+    font-size: 18px;
+  }
+  .secao-background-colorido {
+    padding-bottom: 0px;
+  }
+  .praticas-lista-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .praticas-lista-2 .pratica p {
+    text-align: left;
+  }
+  .materiais {
+    margin: 0 auto;
+  }
+  .praticas-lista-2 .icone-download {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  .green-labs h2 {
+    padding-top: 40px;
+  }
+  .green-labs h3 {
+    padding: 0px;
+  }
+  .green-labs .descricao-green-labs {
+    padding: 30px 0px 0px 0px;
+  }
+  .mais-sobre-guia {
+    padding-top: 40px;
+  }
+  .sobre {
+    height: auto;
+    margin-right: 0px;
+    margin-top: 20px;
+    padding-left: 0px;
+    width: auto;
+  }
+  .sobre h2 {
+    padding: 0px 0px;
+    text-align: left;
+  }
+  .sobre h2::after {
+    margin: 0px 0px;
+  }
+  .sobre-text {
+    margin: 0px 0px 0px 0px;
+    width: auto;
+  }
+  .sobre-text p {
+    font-size: 18px;
+  }
+  /* Formulario de contato */
+  .form-contato {
+    margin-left: 0px;
+  }
+  .form-contato input {
+    width: 300px;
+  }
+  .form-contato textarea {
+    width: 300px;
+  }
+  /* Footer */
+  .footer ul {
+    margin-left: 0px;
+    padding: 20px 0;
+  }
+  .footer ul li:nth-of-type(2),
+  .footer ul li:nth-of-type(3) {
+    display: block;
+  }
+  .footer li:nth-child(1) {
+    text-align: left;
+  }
+  .footer li:nth-child(2) {
+    text-align: left;
+  }
+  .footer li:nth-child(3) {
+    text-align: left;
+    padding-left: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
