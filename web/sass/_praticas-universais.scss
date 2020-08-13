@@ -26,8 +26,7 @@
 
 .icone-lab p {
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 18px;
+  @include type1(18);
   letter-spacing: 0.1em;
   padding-top: 25px;
 }
@@ -48,10 +47,8 @@
 
 .pratica p {
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 20px;
+  @include type1(18);
   letter-spacing: 0.1em;
-  line-height: 30px;
 }
 
 #atencao {

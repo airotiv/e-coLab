@@ -1,13 +1,12 @@
 .sobre-o-ecolab div {
   color: $color-text-base;
-  font-family: Metropolis;
   margin-top: 60px;
   padding-left: 50px;
   padding-right: 50px;
 }
 
 .sobre-o-ecolab div h2 {
-  font-size: 18px;
+  @include type1(18);
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -24,8 +23,7 @@
 }
 
 .sobre-o-ecolab div p {
-  font-size: 18px;
-  line-height: 30px;
+  @include type1(18);
 }
 
 .sobre-o-ecolab div p a,
@@ -40,8 +38,7 @@
 }
 
 .sobre-o-ecolab div ul {
-  font-size: 18px;
-  line-height: 30px;
+  @include type1(18);
   padding-top: 10px;
   padding-bottom: 10px;
 }

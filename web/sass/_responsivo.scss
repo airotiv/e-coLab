@@ -20,7 +20,7 @@
   }
 
   .indice-pagina h2 {
-    font-size: 24px;
+    @include type1(24);
   }
 
   .resumo-pagina {
@@ -28,7 +28,7 @@
   }
 
   .resumo-pagina p {
-    font-size: 18px;
+    @include type1(18);
   }
 
   /* Categorias */
@@ -65,8 +65,7 @@
 
   /* Indice */
   .indice ul li h3 {
-    font-size: 24px;
-    line-height: 20px;
+    @include type1(24);
   }
 
   /* Primeiros passos */
@@ -87,7 +86,7 @@
   }
 
   .ods-text p {
-    font-size: 20px;
+    @include type1(18);
   }
 
   /* Praticas */
@@ -96,7 +95,7 @@
   }
 
   .icone-lab p {
-    font-size: 16px;
+    @include type1(14);
   }
 
   .pratica {
@@ -104,7 +103,7 @@
   }
 
   .pratica p {
-    font-size: 18px;
+    @include type1(18);
   }
 
   /* Pagina 'Materiais e Contato' */
@@ -142,7 +141,7 @@
   }
 
   .sobre-text p {
-    font-size: 18px;
+    @include type1(18);
   }
 
   /* Formulario de contato */
@@ -224,8 +223,7 @@
   }
 
   .titulo-interno h1 {
-    font-size: 24px;
-    line-height: 30px;
+    @include type1(24);
   }
 
   .titulo-interno h1::after {
@@ -233,13 +231,12 @@
   }
 
   .titulo-interno p {
-    font-size: 12px;
+    @include type1(14);
   }
 
   /* Indice */
   .indice ul li h3 {
-    font-size: 18px;
-    line-height: 20px;
+    @include type1(18);
   }
 
   .indice ul li h3:nth-of-type(1) {
@@ -274,7 +271,7 @@
   }
 
   .resumo-pagina p {
-    font-size: 18px;
+    @include type1(18);
   }
 
   /* Overview */
@@ -289,7 +286,7 @@
   }
 
   .overview-text {
-    font-size: 20px;
+    @include type1(18);
     margin-bottom: 60px;
     margin-left: 0px;
     text-align: left;
@@ -308,8 +305,7 @@
   }
 
   .overview div ul {
-    font-size: 20px;
-    line-height: 30px;
+    @include type1(18);
     margin-bottom: 60px;
     margin-left: 0px;
   }
@@ -337,9 +333,7 @@
 
   .categorias h3 {
     color: $color-text-base;
-    font-family: Metropolis;
-    font-size: 15px;
-    line-height: 15px;
+    @include type1(14);
     margin-top: 20px;
     text-transform: none;
   }
@@ -394,7 +388,7 @@
   }
 
   .ods-text p {
-    font-size: 20px;
+    @include type1(18);
   }
 
   .ods-12-13 img {
@@ -447,7 +441,7 @@
   }
 
   .pratica p {
-    font-size: 18px;
+    @include type1(18);
   }
 
   .secao-background-colorido {
@@ -512,7 +506,7 @@
   }
 
   .sobre-text p {
-    font-size: 18px;
+    @include type1(18);
   }
 
   /* Formulario de contato */

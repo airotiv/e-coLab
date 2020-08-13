@@ -4,16 +4,6 @@ html {
   overflow-x: hidden;
 }
 
-@font-face {
-  font-family: Metropolis;
-  src: url("../font/Metropolis-Regular.otf");
-}
-
-@font-face {
-  font-family: Poppins;
-  src: url("../font/Poppins-Regular.ttf");
-}
-
 img {
   max-width: 100%;
 }
@@ -25,10 +15,8 @@ img {
   border-radius: 30px;
   color: $color-text-base;
   cursor: pointer;
-  font-family: Metropolis;
-  font-size: 14px;
+  @include type1(14);
   letter-spacing: 0.1em;
-  line-height: 20px;
   padding: 10px 20px;
   text-align: center;
   text-transform: uppercase;
@@ -48,16 +36,13 @@ img {
 
 .call-to-action p {
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 14px;
+  @include type1(14);
   margin-bottom: 20px;
 }
 
 .subtitulo {
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 24px;
-  line-height: 30px;
+  @include type1(24);
   padding-top: 40px;
   text-transform: uppercase;
 }
@@ -92,11 +77,9 @@ img {
 .nav-menu ul li a {
   /* tipografia dos itens de navegacao-menu */
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 14px;
+  @include type1(14);
   font-weight: bold;
   letter-spacing: 0.1em;
-  line-height: 20px;
   padding: 10px 0; /* aumenta a area clicavel */
 }
 
@@ -121,8 +104,8 @@ img {
 .titulo-interno h1 {
   color: $color-text-base;
   font-family: Poppins;
-  font-size: 36px;
-  line-height: 40px;
+  font-size: em(36);
+  line-height: em(40, 36);
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -138,9 +121,8 @@ img {
 
 .titulo-interno p {
   color: $color-text-subtitle;
-  font-family: Metropolis;
+  @include type1(18);
   letter-spacing: 0.1em;
-  line-height: 20px;
 }
 
 /* SUBTITULO SEGUIDO DE SEPARADOR */
@@ -170,8 +152,7 @@ img {
 
 .indice-pagina h2 {
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 36px;
+  @include type1(36);
   letter-spacing: 0.1em;
   text-align: center;
   text-transform: uppercase;
@@ -193,10 +174,8 @@ img {
 
 .resumo-pagina p {
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 24px;
+  @include type1(24);
   letter-spacing: 0.1em;
-  line-height: 30px;
   text-align: left;
 }
 
@@ -236,7 +215,6 @@ img {
 
 .overview {
   color: $color-text-base;
-  font-family: Metropolis;
   margin-top: 60px;
 }
 
@@ -254,9 +232,8 @@ img {
 }
 
 .overview h2 {
-  font-size: 18px;
+  @include type1(18);
   letter-spacing: 0.1em;
-  line-height: 25px;
   text-transform: uppercase;
 }
 
@@ -281,8 +258,7 @@ img {
 }
 
 .overview-text {
-  font-size: 24px;
-  line-height: 30px;
+  @include type1(24);
   margin-bottom: 60px;
   margin-left: 75px;
   max-width: 600px;
@@ -298,8 +274,7 @@ img {
 }
 
 .overview div ul {
-  font-size: 24px;
-  line-height: 30px;
+  @include type1(24);
   margin-bottom: 60px;
   margin-left: 75px;
   max-width: 600px;
@@ -333,9 +308,7 @@ img {
 
 .categorias h3 {
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 18px;
-  line-height: 25px;
+  @include type1(18);
   margin-top: 20px;
   text-transform: uppercase;
 }
@@ -369,9 +342,7 @@ img {
 }
 .footer li:nth-child(1) {
   color: $color-primary-light;
-  font-family: Metropolis;
-  font-size: 18px;
-  line-height: 25px;
+  @include type1(18);
   padding-bottom: 10px;
   text-align: center;
   width: 180px;
@@ -379,18 +350,14 @@ img {
 
 .footer li:nth-child(2) {
   color: $color-primary;
-  font-family: Metropolis;
-  font-size: 14px;
-  line-height: 20px;
+  @include type1(14);
   text-align: center;
   width: 177px;
 }
 
 .footer li:nth-child(3) {
   color: $color-primary-light;
-  font-family: Metropolis;
-  font-size: 14px;
-  line-height: 20px;
+  @include type1(14);
   text-align: right;
   padding-left: 485px;
   width: 177px;

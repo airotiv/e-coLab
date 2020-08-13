@@ -12,9 +12,7 @@
 .indice ul li h3 {
   color: $color-text-base;
   display: inline-block;
-  font-family: Metropolis;
-  font-size: 36px;
-  line-height: 40px;
+  @include type1(36);
   letter-spacing: 0.1em;
 }
 
@@ -51,10 +49,8 @@
 
 .ods h2 {
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 18px;
+  @include type1(18);
   letter-spacing: 0.1em;
-  line-height: 25px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -75,10 +71,8 @@
 
 .ods-text p {
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 24px;
+  @include type1(24);
   letter-spacing: 0.1em;
-  line-height: 30px;
   text-align: left;
 }
 
@@ -98,10 +92,8 @@
 
 .agentes-lista p {
   color: $color-text-base;
-  font-family: Metropolis;
-  font-size: 14px;
+  @include type1(14);
   letter-spacing: 0.1em;
-  line-height: 20px;
   padding-top: 25px;
 }
 

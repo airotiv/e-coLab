@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Metropolis;
+  src: url("../font/Metropolis-Regular.otf");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins-Regular.ttf");
+}
 // Colores
 $color-text-base: #3d2007;
 $color-text-subtitle: #7c4d25;
@@ -9,17 +18,25 @@ $color-box-footer: #262626;
 $color-input-forms: #ff914d; //(47%)
 
 // Tipografia
-@mixin type1($tamanho) {
-  @if $tamanho == 14 {
-    font-size: 14px;
-    line-height: 20px;
-  } @else if $tamanho == 18 {
-    font-size: 18px;
-    line-height: 25px;
-  } @else if $tamanho == 24 {
-    font-size: 24px;
-    line-height: 30px;
-  } @else if $tamanho == 36 {
-    font-size: 36px;
+
+@function em($pixel, $context: 16) {
+  // transforma 'px' em 'em'
+  @return $pixel / $context + em;
+}
+
+@mixin type1($size) {
+  font-family: Metropolis, Arial, sans-serif;
+  @if $size == 14 {
+    font-size: em(14);
+    line-height: em(20, 14);
+  } @else if $size == 18 {
+    font-size: em(18);
+    line-height: em(25, 18);
+  } @else if $size == 24 {
+    font-size: em(24);
+    line-height: em(30, 24);
+  } @else if $size == 36 {
+    font-size: em(36);
+    line-height: em(40, 36);
   }
 }
